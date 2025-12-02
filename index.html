@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - LOCMACHINE (Demonstração)</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-flex">
+            <div class="logo">
+                <span class="logo-box">L</span> LOCMACHINE
+            </div>
+            <div class="menu-icones">
+                <a href="#">Home</a>
+                <a href="#">Histórico</a>
+                
+                <a href="#" style="margin-left: 20px;">
+                    <i class="fa fa-shopping-cart"></i>
+                </a>
+                
+                <a href="#"><i class="fa fa-user-circle"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero-section">
+        <div class="container reveal">
+            <h1 style="font-size: 3rem; margin-bottom: 15px;">Potência para sua Obra</h1>
+            
+            <div class="form-busca-home">
+                <input type="text" class="input-busca-moderno" placeholder="O que você procura? (Ex: Trator)">
+                <button type="button" class="btn btn-laranja" style="border-radius: 50px; padding: 10px 30px;">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+
+            <p style="font-size: 1.2rem; opacity: 0.8; max-width: 600px; margin: 20px auto 0;">
+                A frota mais moderna de máquinas pesadas ao seu alcance.
+            </p>
+        </div>
+    </div>
+
+    <div class="container" id="catalogo">
+        <div class="reveal delay-1" style="margin-top: 60px; text-align: center;">
+            <h3 style="font-size: 2rem;">Nossa Frota Disponível</h3>
+        </div>
+
+        <div style="margin: 40px auto; max-width: 800px;">
+            <div class="card" style="text-align: center; border-left: 5px solid var(--cor-laranja); padding: 50px;">
+                <i class="fa fa-info-circle" style="font-size: 3rem; color: var(--cor-laranja); margin-bottom: 20px;"></i>
+                <h3 style="margin-bottom: 15px; color: #333;">Modo de Visualização</h3>
+                
+                <p style="font-size: 1.2rem; color: #555; font-weight: 500;">
+                    Para utilizar as funcionalidades por completo, faça o download dos arquivos do repositório e utilize o dump do banco de dados.
+                </p>
+                
+                <div style="margin-top: 30px;">
+                    <a href="https://github.com/lucasdomingoscodee/Projeto-TCC-LocMachine" class="btn btn-laranja">Ir para Repositório</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-maquinas" style="opacity: 0.5; pointer-events: none;">
+            <div class="maquina-card">
+                <div style="height: 220px; background: #ddd; display:flex; align-items:center; justify-content:center;">
+                    <span style="color:#999">Exemplo de Imagem</span>
+                </div>
+                <div class="maquina-info">
+                    <h4>Escavadeira CAT 320</h4>
+                    <p style="font-size: 0.9rem; color: #666; margin: 10px 0;">Exemplo de visualização de card...</p>
+                    <span class="preco">R$ 800,00 <small style="color:#888; font-weight:normal;">/dia</small></span>
+                    <div class="btn-group">
+                        <a href="#" class="btn btn-outline"><i class="fa fa-cart-plus"></i> Add</a>
+                        <a href="#" class="btn btn-laranja">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="maquina-card">
+                 <div style="height: 220px; background: #ddd; display:flex; align-items:center; justify-content:center;">
+                    <span style="color:#999">Exemplo de Imagem</span>
+                </div>
+                <div class="maquina-info">
+                    <h4>Trator John Deere</h4>
+                    <p style="font-size: 0.9rem; color: #666; margin: 10px 0;">Exemplo de visualização de card...</p>
+                    <span class="preco">R$ 1.200,00 <small style="color:#888; font-weight:normal;">/dia</small></span>
+                    <div class="btn-group">
+                        <a href="#" class="btn btn-outline"><i class="fa fa-cart-plus"></i> Add</a>
+                        <a href="#" class="btn btn-laranja">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="maquina-card">
+                 <div style="height: 220px; background: #ddd; display:flex; align-items:center; justify-content:center;">
+                    <span style="color:#999">Exemplo de Imagem</span>
+                </div>
+                <div class="maquina-info">
+                    <h4>Empilhadeira Toyota</h4>
+                    <p style="font-size: 0.9rem; color: #666; margin: 10px 0;">Exemplo de visualização de card...</p>
+                    <span class="preco">R$ 450,00 <small style="color:#888; font-weight:normal;">/dia</small></span>
+                    <div class="btn-group">
+                        <a href="#" class="btn btn-outline"><i class="fa fa-cart-plus"></i> Add</a>
+                        <a href="#" class="btn btn-laranja">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-zao">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <div class="logo" style="color: white; margin-bottom: 10px;">
+                    <span class="logo-box">L</span> LOCMACHINE
+                </div>
+            </div>
+            <div class="footer-right">
+                <h4>Fale Conosco</h4>
+                <p><i class="fa fa-envelope"></i> contato@locmachine.com</p>
+                <p><i class="fa fa-phone"></i> (31) 99999-8888</p>
+                <p><i class="fa fa-map-marker-alt"></i> Belo Horizonte, MG</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animationPlayState = 'running';
+                    entry.target.classList.add('visible');
+                }
+            });
+        });
+
+        document.querySelectorAll('.reveal').forEach((el) => {
+            observer.observe(el);
+        });
+    </script>
+
+</body>
+</html>
