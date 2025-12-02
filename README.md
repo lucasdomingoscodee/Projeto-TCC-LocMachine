@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  🚜 LocMachine
+    LocMachine
   <br>
 </h1>
 
