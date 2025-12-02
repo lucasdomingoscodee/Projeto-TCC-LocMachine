@@ -68,7 +68,7 @@ Para testar as funcionalidades do sistema, utilize as credenciais abaixo:
 
 Para rodar o projeto localmente:
 
-1. **Pré-requisitos:** Tenha instalado um servidor local (preferencialmente o WAMP) com PHP e MySQL.
-2. **Clone o repositório:**
-  ```bash
-   git clone [https://github.com/lucasdomingoscodee/Projeto-TCC-LocMachine.git](https://github.com/lucasdomingoscodee/Projeto-TCC-LocMachine.git)
+1. **Pré-requisitos:** Tenha instalado um servidor local e um editor de SQL (preferencialmente o WAMPServer e MySQLWorkbench)**
+2. **Entre na pasta 'Dump database' e execute o arquivo no editor sql**
+3. **Coloque a pasta 'TCC_Locmachine' no diretório do servidor local (Ex: pasta WWW do wampserver)**
+4. **Entre na pagina "localhost/(caminho do arquivo)" pelo navegador**
